@@ -22,7 +22,8 @@ const Logo = styled.h1`
         text-decoration: none;
     }
     @media (max-width: ${props => props.theme.desktopWidth}) {
-        margin: 0;
+        width: 90%;
+        margin: 0 auto;
         text-align: center;
     }
 `;
